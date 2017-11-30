@@ -1,0 +1,15 @@
+# ninja log v5
+0	110	0	CMakeFiles/secret-keeper.dir/src/main/cpp/secret-keeper.cpp.o	e721e669e8c22862
+112	132	0	../../../../build/intermediates/cmake/debug/obj/mips/libsecret-keeper.so	13c399996717f70f
+0	73	0	CMakeFiles/secret-keeper.dir/src/main/cpp/secret-keeper.cpp.o	e721e669e8c22862
+73	87	0	../../../../build/intermediates/cmake/debug/obj/mips/libsecret-keeper.so	13c399996717f70f
+1	91	0	CMakeFiles/secret-keeper.dir/src/main/cpp/secret-keeper.cpp.o	e721e669e8c22862
+91	106	0	../../../../build/intermediates/cmake/debug/obj/mips/libsecret-keeper.so	13c399996717f70f
+0	92	0	CMakeFiles/secret-keeper.dir/src/main/cpp/secret-keeper.cpp.o	e721e669e8c22862
+92	104	0	../../../../build/intermediates/cmake/debug/obj/mips/libsecret-keeper.so	13c399996717f70f
+0	87	0	CMakeFiles/secret-keeper.dir/src/main/cpp/secret-keeper.cpp.o	e721e669e8c22862
+87	107	0	../../../../build/intermediates/cmake/debug/obj/mips/libsecret-keeper.so	13c399996717f70f
+1	278	0	CMakeFiles/secret-keeper.dir/src/main/cpp/secret-keeper.cpp.o	e721e669e8c22862
+278	320	0	../../../../build/intermediates/cmake/debug/obj/mips/libsecret-keeper.so	13c399996717f70f
+1	142	0	CMakeFiles/secret-keeper.dir/src/main/cpp/secret-keeper.cpp.o	e721e669e8c22862
+142	163	0	../../../../build/intermediates/cmake/debug/obj/mips/libsecret-keeper.so	13c399996717f70f

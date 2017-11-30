@@ -16,7 +16,7 @@
         android:layout_height="20pt"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="75pt"
-        android:inputType="number"
+        android:inputType="text"
         android:hint="Your input..."/>
 
     <RadioGroup

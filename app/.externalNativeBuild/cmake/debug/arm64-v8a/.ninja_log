@@ -1,0 +1,15 @@
+# ninja log v5
+0	84	0	CMakeFiles/secret-keeper.dir/src/main/cpp/secret-keeper.cpp.o	cd98d4f24bba5d58
+88	116	0	../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libsecret-keeper.so	87299b07100c4da5
+0	75	0	CMakeFiles/secret-keeper.dir/src/main/cpp/secret-keeper.cpp.o	cd98d4f24bba5d58
+75	88	0	../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libsecret-keeper.so	87299b07100c4da5
+1	82	0	CMakeFiles/secret-keeper.dir/src/main/cpp/secret-keeper.cpp.o	cd98d4f24bba5d58
+82	97	0	../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libsecret-keeper.so	87299b07100c4da5
+1	72	0	CMakeFiles/secret-keeper.dir/src/main/cpp/secret-keeper.cpp.o	cd98d4f24bba5d58
+72	87	0	../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libsecret-keeper.so	87299b07100c4da5
+0	82	0	CMakeFiles/secret-keeper.dir/src/main/cpp/secret-keeper.cpp.o	cd98d4f24bba5d58
+82	95	0	../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libsecret-keeper.so	87299b07100c4da5
+1	151	0	CMakeFiles/secret-keeper.dir/src/main/cpp/secret-keeper.cpp.o	cd98d4f24bba5d58
+151	173	0	../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libsecret-keeper.so	87299b07100c4da5
+0	135	0	CMakeFiles/secret-keeper.dir/src/main/cpp/secret-keeper.cpp.o	cd98d4f24bba5d58
+135	157	0	../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libsecret-keeper.so	87299b07100c4da5

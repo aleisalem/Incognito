@@ -1,20 +1,20 @@
 The target system is: Android - 16 - armv5te
-The host system is: Linux - 4.4.0-66-generic - x86_64
+The host system is: Linux - 4.4.0-101-generic - x86_64
 Determining if the C compiler works passed with the following output:
-Change Dir: /home/aesalem/Teaching/WiSe_2016_17/IN4189_Selected_Topics_in_Android_Security/Lectures_and_Tasks/Wk_6_Reverse_Engineering/Exercise_6/code/Incognito/app/.externalNativeBuild/cmake/release/armeabi/CMakeFiles/CMakeTmp
+Change Dir: /home/aesalem/Teaching/IN4189_Android_Security/Lectures_and_Tasks/Wk_6_Reverse_Engineering/Exercise_6/code/Incognito/app/.externalNativeBuild/cmake/release/armeabi/CMakeFiles/CMakeTmp
 
-Run Build Command:"/home/aesalem/android-sdk-linux/cmake/3.6.3155560/bin/ninja" "cmTC_14c14"
-[1/2] Building C object CMakeFiles/cmTC_14c14.dir/testCCompiler.c.o
-[2/2] Linking C executable cmTC_14c14
+Run Build Command:"/home/aesalem/android-sdk-linux/cmake/3.6.3155560/bin/ninja" "cmTC_270ed"
+[1/2] Building C object CMakeFiles/cmTC_270ed.dir/testCCompiler.c.o
+[2/2] Linking C executable cmTC_270ed
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/aesalem/Teaching/WiSe_2016_17/IN4189_Selected_Topics_in_Android_Security/Lectures_and_Tasks/Wk_6_Reverse_Engineering/Exercise_6/code/Incognito/app/.externalNativeBuild/cmake/release/armeabi/CMakeFiles/CMakeTmp
+Change Dir: /home/aesalem/Teaching/IN4189_Android_Security/Lectures_and_Tasks/Wk_6_Reverse_Engineering/Exercise_6/code/Incognito/app/.externalNativeBuild/cmake/release/armeabi/CMakeFiles/CMakeTmp
 
-Run Build Command:"/home/aesalem/android-sdk-linux/cmake/3.6.3155560/bin/ninja" "cmTC_c39b9"
-[1/2] Building C object CMakeFiles/cmTC_c39b9.dir/CMakeCCompilerABI.c.o
-[2/2] Linking C executable cmTC_c39b9
-Android clang version 3.8.275480  (based on LLVM 3.8.275480)
+Run Build Command:"/home/aesalem/android-sdk-linux/cmake/3.6.3155560/bin/ninja" "cmTC_c356d"
+[1/2] Building C object CMakeFiles/cmTC_c356d.dir/CMakeCCompilerABI.c.o
+[2/2] Linking C executable cmTC_c356d
+Android clang version 5.0.300080  (based on LLVM 5.0.300080)
 Target: armv5te-none-linux-android
 Thread model: posix
 InstalledDir: /home/aesalem/android-sdk-linux/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin
@@ -25,17 +25,17 @@ Candidate multilib: armv7-a;@armv7
 Candidate multilib: armv7-a/thumb;@armv7@thumb
 Candidate multilib: .;
 Selected multilib: thumb;@thumb
- "/home/aesalem/android-sdk-linux/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld" --sysroot=/home/aesalem/android-sdk-linux/ndk-bundle/platforms/android-16/arch-arm -pie -z relro -X --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /system/bin/linker -o cmTC_c39b9 /home/aesalem/android-sdk-linux/ndk-bundle/platforms/android-16/arch-arm/usr/lib/../lib/crtbegin_dynamic.o -L/home/aesalem/android-sdk-linux/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/thumb -L/home/aesalem/android-sdk-linux/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/thumb -L/home/aesalem/android-sdk-linux/ndk-bundle/platforms/android-16/arch-arm/usr/lib/../lib -L/home/aesalem/android-sdk-linux/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/thumb -L/home/aesalem/android-sdk-linux/ndk-bundle/platforms/android-16/arch-arm/usr/lib --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_c39b9.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl /home/aesalem/android-sdk-linux/ndk-bundle/platforms/android-16/arch-arm/usr/lib/../lib/crtend_android.o
+ "/home/aesalem/android-sdk-linux/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld" --sysroot=/home/aesalem/android-sdk-linux/ndk-bundle/platforms/android-16/arch-arm -pie -z relro -X --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /system/bin/linker -o cmTC_c356d /home/aesalem/android-sdk-linux/ndk-bundle/platforms/android-16/arch-arm/usr/lib/../lib/crtbegin_dynamic.o -L/home/aesalem/android-sdk-linux/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/lib/linux/arm -L/home/aesalem/android-sdk-linux/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/thumb -L/home/aesalem/android-sdk-linux/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/thumb -L/home/aesalem/android-sdk-linux/ndk-bundle/platforms/android-16/arch-arm/usr/lib/../lib -L/home/aesalem/android-sdk-linux/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/thumb -L/home/aesalem/android-sdk-linux/ndk-bundle/platforms/android-16/arch-arm/usr/lib --exclude-libs libgcc.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_c356d.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl /home/aesalem/android-sdk-linux/ndk-bundle/platforms/android-16/arch-arm/usr/lib/../lib/crtend_android.o
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(arm-linux-androideabi-ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/aesalem/Teaching/WiSe_2016_17/IN4189_Selected_Topics_in_Android_Security/Lectures_and_Tasks/Wk_6_Reverse_Engineering/Exercise_6/code/Incognito/app/.externalNativeBuild/cmake/release/armeabi/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/aesalem/Teaching/IN4189_Android_Security/Lectures_and_Tasks/Wk_6_Reverse_Engineering/Exercise_6/code/Incognito/app/.externalNativeBuild/cmake/release/armeabi/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/home/aesalem/android-sdk-linux/cmake/3.6.3155560/bin/ninja" "cmTC_c39b9"]
-  ignore line: [[1/2] Building C object CMakeFiles/cmTC_c39b9.dir/CMakeCCompilerABI.c.o]
-  ignore line: [[2/2] Linking C executable cmTC_c39b9]
-  ignore line: [Android clang version 3.8.275480  (based on LLVM 3.8.275480)]
+  ignore line: [Run Build Command:"/home/aesalem/android-sdk-linux/cmake/3.6.3155560/bin/ninja" "cmTC_c356d"]
+  ignore line: [[1/2] Building C object CMakeFiles/cmTC_c356d.dir/CMakeCCompilerABI.c.o]
+  ignore line: [[2/2] Linking C executable cmTC_c356d]
+  ignore line: [Android clang version 5.0.300080  (based on LLVM 5.0.300080)]
   ignore line: [Target: armv5te-none-linux-android]
   ignore line: [Thread model: posix]
   ignore line: [InstalledDir: /home/aesalem/android-sdk-linux/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin]
@@ -51,7 +51,7 @@ Parsed C implicit link information from above output:
   ignore line: []
   ignore line: [Selected multilib: thumb]
   ignore line: [@thumb]
-  link line: [ "/home/aesalem/android-sdk-linux/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld" --sysroot=/home/aesalem/android-sdk-linux/ndk-bundle/platforms/android-16/arch-arm -pie -z relro -X --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /system/bin/linker -o cmTC_c39b9 /home/aesalem/android-sdk-linux/ndk-bundle/platforms/android-16/arch-arm/usr/lib/../lib/crtbegin_dynamic.o -L/home/aesalem/android-sdk-linux/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/thumb -L/home/aesalem/android-sdk-linux/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/thumb -L/home/aesalem/android-sdk-linux/ndk-bundle/platforms/android-16/arch-arm/usr/lib/../lib -L/home/aesalem/android-sdk-linux/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/thumb -L/home/aesalem/android-sdk-linux/ndk-bundle/platforms/android-16/arch-arm/usr/lib --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_c39b9.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl /home/aesalem/android-sdk-linux/ndk-bundle/platforms/android-16/arch-arm/usr/lib/../lib/crtend_android.o]
+  link line: [ "/home/aesalem/android-sdk-linux/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld" --sysroot=/home/aesalem/android-sdk-linux/ndk-bundle/platforms/android-16/arch-arm -pie -z relro -X --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /system/bin/linker -o cmTC_c356d /home/aesalem/android-sdk-linux/ndk-bundle/platforms/android-16/arch-arm/usr/lib/../lib/crtbegin_dynamic.o -L/home/aesalem/android-sdk-linux/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/lib/linux/arm -L/home/aesalem/android-sdk-linux/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/thumb -L/home/aesalem/android-sdk-linux/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/thumb -L/home/aesalem/android-sdk-linux/ndk-bundle/platforms/android-16/arch-arm/usr/lib/../lib -L/home/aesalem/android-sdk-linux/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/thumb -L/home/aesalem/android-sdk-linux/ndk-bundle/platforms/android-16/arch-arm/usr/lib --exclude-libs libgcc.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_c356d.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl /home/aesalem/android-sdk-linux/ndk-bundle/platforms/android-16/arch-arm/usr/lib/../lib/crtend_android.o]
     arg [/home/aesalem/android-sdk-linux/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld] ==> ignore
     arg [--sysroot=/home/aesalem/android-sdk-linux/ndk-bundle/platforms/android-16/arch-arm] ==> ignore
     arg [-pie] ==> ignore
@@ -63,13 +63,16 @@ Parsed C implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/system/bin/linker] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_c39b9] ==> ignore
+    arg [cmTC_c356d] ==> ignore
     arg [/home/aesalem/android-sdk-linux/ndk-bundle/platforms/android-16/arch-arm/usr/lib/../lib/crtbegin_dynamic.o] ==> ignore
+    arg [-L/home/aesalem/android-sdk-linux/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/lib/linux/arm] ==> dir [/home/aesalem/android-sdk-linux/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/lib/linux/arm]
     arg [-L/home/aesalem/android-sdk-linux/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/thumb] ==> dir [/home/aesalem/android-sdk-linux/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/thumb]
     arg [-L/home/aesalem/android-sdk-linux/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/thumb] ==> dir [/home/aesalem/android-sdk-linux/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/thumb]
     arg [-L/home/aesalem/android-sdk-linux/ndk-bundle/platforms/android-16/arch-arm/usr/lib/../lib] ==> dir [/home/aesalem/android-sdk-linux/ndk-bundle/platforms/android-16/arch-arm/usr/lib/../lib]
     arg [-L/home/aesalem/android-sdk-linux/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/thumb] ==> dir [/home/aesalem/android-sdk-linux/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/thumb]
     arg [-L/home/aesalem/android-sdk-linux/ndk-bundle/platforms/android-16/arch-arm/usr/lib] ==> dir [/home/aesalem/android-sdk-linux/ndk-bundle/platforms/android-16/arch-arm/usr/lib]
+    arg [--exclude-libs] ==> ignore
+    arg [libgcc.a] ==> ignore
     arg [--build-id] ==> ignore
     arg [--warn-shared-textrel] ==> ignore
     arg [--fatal-warnings] ==> ignore
@@ -79,16 +82,7 @@ Parsed C implicit link information from above output:
     arg [-znow] ==> ignore
     arg [--gc-sections] ==> ignore
     arg [-znocopyreloc] ==> ignore
-    arg [--build-id] ==> ignore
-    arg [--warn-shared-textrel] ==> ignore
-    arg [--fatal-warnings] ==> ignore
-    arg [--no-undefined] ==> ignore
-    arg [-znoexecstack] ==> ignore
-    arg [-zrelro] ==> ignore
-    arg [-znow] ==> ignore
-    arg [--gc-sections] ==> ignore
-    arg [-znocopyreloc] ==> ignore
-    arg [CMakeFiles/cmTC_c39b9.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_c356d.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [-ldl] ==> lib [dl]
     arg [-lc] ==> lib [c]
@@ -97,24 +91,25 @@ Parsed C implicit link information from above output:
     arg [/home/aesalem/android-sdk-linux/ndk-bundle/platforms/android-16/arch-arm/usr/lib/../lib/crtend_android.o] ==> ignore
   remove lib [gcc]
   remove lib [gcc]
+  collapse library dir [/home/aesalem/android-sdk-linux/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/lib/linux/arm] ==> [/home/aesalem/android-sdk-linux/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/lib/linux/arm]
   collapse library dir [/home/aesalem/android-sdk-linux/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/thumb] ==> [/home/aesalem/android-sdk-linux/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/thumb]
   collapse library dir [/home/aesalem/android-sdk-linux/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/thumb] ==> [/home/aesalem/android-sdk-linux/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/arm-linux-androideabi/lib/thumb]
   collapse library dir [/home/aesalem/android-sdk-linux/ndk-bundle/platforms/android-16/arch-arm/usr/lib/../lib] ==> [/home/aesalem/android-sdk-linux/ndk-bundle/platforms/android-16/arch-arm/usr/lib]
   collapse library dir [/home/aesalem/android-sdk-linux/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/thumb] ==> [/home/aesalem/android-sdk-linux/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/arm-linux-androideabi/lib/thumb]
   collapse library dir [/home/aesalem/android-sdk-linux/ndk-bundle/platforms/android-16/arch-arm/usr/lib] ==> [/home/aesalem/android-sdk-linux/ndk-bundle/platforms/android-16/arch-arm/usr/lib]
   implicit libs: [dl;c;dl]
-  implicit dirs: [/home/aesalem/android-sdk-linux/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/thumb;/home/aesalem/android-sdk-linux/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/arm-linux-androideabi/lib/thumb;/home/aesalem/android-sdk-linux/ndk-bundle/platforms/android-16/arch-arm/usr/lib]
+  implicit dirs: [/home/aesalem/android-sdk-linux/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/lib/linux/arm;/home/aesalem/android-sdk-linux/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/thumb;/home/aesalem/android-sdk-linux/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/arm-linux-androideabi/lib/thumb;/home/aesalem/android-sdk-linux/ndk-bundle/platforms/android-16/arch-arm/usr/lib]
   implicit fwks: []
 
 
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /home/aesalem/Teaching/WiSe_2016_17/IN4189_Selected_Topics_in_Android_Security/Lectures_and_Tasks/Wk_6_Reverse_Engineering/Exercise_6/code/Incognito/app/.externalNativeBuild/cmake/release/armeabi/CMakeFiles/CMakeTmp
+Change Dir: /home/aesalem/Teaching/IN4189_Android_Security/Lectures_and_Tasks/Wk_6_Reverse_Engineering/Exercise_6/code/Incognito/app/.externalNativeBuild/cmake/release/armeabi/CMakeFiles/CMakeTmp
 
-Run Build Command:"/home/aesalem/android-sdk-linux/cmake/3.6.3155560/bin/ninja" "cmTC_b4234"
-[1/2] Building C object CMakeFiles/cmTC_b4234.dir/feature_tests.c.o
-[2/2] Linking C executable cmTC_b4234
+Run Build Command:"/home/aesalem/android-sdk-linux/cmake/3.6.3155560/bin/ninja" "cmTC_63f3c"
+[1/2] Building C object CMakeFiles/cmTC_63f3c.dir/feature_tests.c.o
+[2/2] Linking C executable cmTC_63f3c
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -124,11 +119,11 @@ Run Build Command:"/home/aesalem/android-sdk-linux/cmake/3.6.3155560/bin/ninja" 
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /home/aesalem/Teaching/WiSe_2016_17/IN4189_Selected_Topics_in_Android_Security/Lectures_and_Tasks/Wk_6_Reverse_Engineering/Exercise_6/code/Incognito/app/.externalNativeBuild/cmake/release/armeabi/CMakeFiles/CMakeTmp
+Change Dir: /home/aesalem/Teaching/IN4189_Android_Security/Lectures_and_Tasks/Wk_6_Reverse_Engineering/Exercise_6/code/Incognito/app/.externalNativeBuild/cmake/release/armeabi/CMakeFiles/CMakeTmp
 
-Run Build Command:"/home/aesalem/android-sdk-linux/cmake/3.6.3155560/bin/ninja" "cmTC_ec4d3"
-[1/2] Building C object CMakeFiles/cmTC_ec4d3.dir/feature_tests.c.o
-[2/2] Linking C executable cmTC_ec4d3
+Run Build Command:"/home/aesalem/android-sdk-linux/cmake/3.6.3155560/bin/ninja" "cmTC_84d19"
+[1/2] Building C object CMakeFiles/cmTC_84d19.dir/feature_tests.c.o
+[2/2] Linking C executable cmTC_84d19
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -138,11 +133,11 @@ Run Build Command:"/home/aesalem/android-sdk-linux/cmake/3.6.3155560/bin/ninja" 
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /home/aesalem/Teaching/WiSe_2016_17/IN4189_Selected_Topics_in_Android_Security/Lectures_and_Tasks/Wk_6_Reverse_Engineering/Exercise_6/code/Incognito/app/.externalNativeBuild/cmake/release/armeabi/CMakeFiles/CMakeTmp
+Change Dir: /home/aesalem/Teaching/IN4189_Android_Security/Lectures_and_Tasks/Wk_6_Reverse_Engineering/Exercise_6/code/Incognito/app/.externalNativeBuild/cmake/release/armeabi/CMakeFiles/CMakeTmp
 
-Run Build Command:"/home/aesalem/android-sdk-linux/cmake/3.6.3155560/bin/ninja" "cmTC_847a9"
-[1/2] Building C object CMakeFiles/cmTC_847a9.dir/feature_tests.c.o
-[2/2] Linking C executable cmTC_847a9
+Run Build Command:"/home/aesalem/android-sdk-linux/cmake/3.6.3155560/bin/ninja" "cmTC_1ae72"
+[1/2] Building C object CMakeFiles/cmTC_1ae72.dir/feature_tests.c.o
+[2/2] Linking C executable cmTC_1ae72
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -150,20 +145,20 @@ Run Build Command:"/home/aesalem/android-sdk-linux/cmake/3.6.3155560/bin/ninja" 
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /home/aesalem/Teaching/WiSe_2016_17/IN4189_Selected_Topics_in_Android_Security/Lectures_and_Tasks/Wk_6_Reverse_Engineering/Exercise_6/code/Incognito/app/.externalNativeBuild/cmake/release/armeabi/CMakeFiles/CMakeTmp
+Change Dir: /home/aesalem/Teaching/IN4189_Android_Security/Lectures_and_Tasks/Wk_6_Reverse_Engineering/Exercise_6/code/Incognito/app/.externalNativeBuild/cmake/release/armeabi/CMakeFiles/CMakeTmp
 
-Run Build Command:"/home/aesalem/android-sdk-linux/cmake/3.6.3155560/bin/ninja" "cmTC_0753e"
-[1/2] Building CXX object CMakeFiles/cmTC_0753e.dir/testCXXCompiler.cxx.o
-[2/2] Linking CXX executable cmTC_0753e
+Run Build Command:"/home/aesalem/android-sdk-linux/cmake/3.6.3155560/bin/ninja" "cmTC_f6f45"
+[1/2] Building CXX object CMakeFiles/cmTC_f6f45.dir/testCXXCompiler.cxx.o
+[2/2] Linking CXX executable cmTC_f6f45
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/aesalem/Teaching/WiSe_2016_17/IN4189_Selected_Topics_in_Android_Security/Lectures_and_Tasks/Wk_6_Reverse_Engineering/Exercise_6/code/Incognito/app/.externalNativeBuild/cmake/release/armeabi/CMakeFiles/CMakeTmp
+Change Dir: /home/aesalem/Teaching/IN4189_Android_Security/Lectures_and_Tasks/Wk_6_Reverse_Engineering/Exercise_6/code/Incognito/app/.externalNativeBuild/cmake/release/armeabi/CMakeFiles/CMakeTmp
 
-Run Build Command:"/home/aesalem/android-sdk-linux/cmake/3.6.3155560/bin/ninja" "cmTC_2b57f"
-[1/2] Building CXX object CMakeFiles/cmTC_2b57f.dir/CMakeCXXCompilerABI.cpp.o
-[2/2] Linking CXX executable cmTC_2b57f
-Android clang version 3.8.275480  (based on LLVM 3.8.275480)
+Run Build Command:"/home/aesalem/android-sdk-linux/cmake/3.6.3155560/bin/ninja" "cmTC_259b4"
+[1/2] Building CXX object CMakeFiles/cmTC_259b4.dir/CMakeCXXCompilerABI.cpp.o
+[2/2] Linking CXX executable cmTC_259b4
+Android clang version 5.0.300080  (based on LLVM 5.0.300080)
 Target: armv5te-none-linux-android
 Thread model: posix
 InstalledDir: /home/aesalem/android-sdk-linux/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin
@@ -174,17 +169,17 @@ Candidate multilib: armv7-a;@armv7
 Candidate multilib: armv7-a/thumb;@armv7@thumb
 Candidate multilib: .;
 Selected multilib: thumb;@thumb
- "/home/aesalem/android-sdk-linux/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld" --sysroot=/home/aesalem/android-sdk-linux/ndk-bundle/platforms/android-16/arch-arm -pie -z relro -X --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /system/bin/linker -o cmTC_2b57f /home/aesalem/android-sdk-linux/ndk-bundle/platforms/android-16/arch-arm/usr/lib/../lib/crtbegin_dynamic.o -L/home/aesalem/android-sdk-linux/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/thumb -L/home/aesalem/android-sdk-linux/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/thumb -L/home/aesalem/android-sdk-linux/ndk-bundle/platforms/android-16/arch-arm/usr/lib/../lib -L/home/aesalem/android-sdk-linux/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/thumb -L/home/aesalem/android-sdk-linux/ndk-bundle/platforms/android-16/arch-arm/usr/lib --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_2b57f.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc -lgcc -ldl -lc -lgcc -lgcc -ldl /home/aesalem/android-sdk-linux/ndk-bundle/platforms/android-16/arch-arm/usr/lib/../lib/crtend_android.o
+ "/home/aesalem/android-sdk-linux/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld" --sysroot=/home/aesalem/android-sdk-linux/ndk-bundle/platforms/android-16/arch-arm -pie -z relro -X --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /system/bin/linker -o cmTC_259b4 /home/aesalem/android-sdk-linux/ndk-bundle/platforms/android-16/arch-arm/usr/lib/../lib/crtbegin_dynamic.o -L/home/aesalem/android-sdk-linux/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/lib/linux/arm -L/home/aesalem/android-sdk-linux/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/thumb -L/home/aesalem/android-sdk-linux/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/thumb -L/home/aesalem/android-sdk-linux/ndk-bundle/platforms/android-16/arch-arm/usr/lib/../lib -L/home/aesalem/android-sdk-linux/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/thumb -L/home/aesalem/android-sdk-linux/ndk-bundle/platforms/android-16/arch-arm/usr/lib --exclude-libs libgcc.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_259b4.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc -lgcc -ldl -lc -lgcc -lgcc -ldl /home/aesalem/android-sdk-linux/ndk-bundle/platforms/android-16/arch-arm/usr/lib/../lib/crtend_android.o
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(arm-linux-androideabi-ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/aesalem/Teaching/WiSe_2016_17/IN4189_Selected_Topics_in_Android_Security/Lectures_and_Tasks/Wk_6_Reverse_Engineering/Exercise_6/code/Incognito/app/.externalNativeBuild/cmake/release/armeabi/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/aesalem/Teaching/IN4189_Android_Security/Lectures_and_Tasks/Wk_6_Reverse_Engineering/Exercise_6/code/Incognito/app/.externalNativeBuild/cmake/release/armeabi/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/home/aesalem/android-sdk-linux/cmake/3.6.3155560/bin/ninja" "cmTC_2b57f"]
-  ignore line: [[1/2] Building CXX object CMakeFiles/cmTC_2b57f.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [[2/2] Linking CXX executable cmTC_2b57f]
-  ignore line: [Android clang version 3.8.275480  (based on LLVM 3.8.275480)]
+  ignore line: [Run Build Command:"/home/aesalem/android-sdk-linux/cmake/3.6.3155560/bin/ninja" "cmTC_259b4"]
+  ignore line: [[1/2] Building CXX object CMakeFiles/cmTC_259b4.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [[2/2] Linking CXX executable cmTC_259b4]
+  ignore line: [Android clang version 5.0.300080  (based on LLVM 5.0.300080)]
   ignore line: [Target: armv5te-none-linux-android]
   ignore line: [Thread model: posix]
   ignore line: [InstalledDir: /home/aesalem/android-sdk-linux/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin]
@@ -200,7 +195,7 @@ Parsed CXX implicit link information from above output:
   ignore line: []
   ignore line: [Selected multilib: thumb]
   ignore line: [@thumb]
-  link line: [ "/home/aesalem/android-sdk-linux/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld" --sysroot=/home/aesalem/android-sdk-linux/ndk-bundle/platforms/android-16/arch-arm -pie -z relro -X --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /system/bin/linker -o cmTC_2b57f /home/aesalem/android-sdk-linux/ndk-bundle/platforms/android-16/arch-arm/usr/lib/../lib/crtbegin_dynamic.o -L/home/aesalem/android-sdk-linux/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/thumb -L/home/aesalem/android-sdk-linux/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/thumb -L/home/aesalem/android-sdk-linux/ndk-bundle/platforms/android-16/arch-arm/usr/lib/../lib -L/home/aesalem/android-sdk-linux/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/thumb -L/home/aesalem/android-sdk-linux/ndk-bundle/platforms/android-16/arch-arm/usr/lib --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_2b57f.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc -lgcc -ldl -lc -lgcc -lgcc -ldl /home/aesalem/android-sdk-linux/ndk-bundle/platforms/android-16/arch-arm/usr/lib/../lib/crtend_android.o]
+  link line: [ "/home/aesalem/android-sdk-linux/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld" --sysroot=/home/aesalem/android-sdk-linux/ndk-bundle/platforms/android-16/arch-arm -pie -z relro -X --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /system/bin/linker -o cmTC_259b4 /home/aesalem/android-sdk-linux/ndk-bundle/platforms/android-16/arch-arm/usr/lib/../lib/crtbegin_dynamic.o -L/home/aesalem/android-sdk-linux/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/lib/linux/arm -L/home/aesalem/android-sdk-linux/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/thumb -L/home/aesalem/android-sdk-linux/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/thumb -L/home/aesalem/android-sdk-linux/ndk-bundle/platforms/android-16/arch-arm/usr/lib/../lib -L/home/aesalem/android-sdk-linux/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/thumb -L/home/aesalem/android-sdk-linux/ndk-bundle/platforms/android-16/arch-arm/usr/lib --exclude-libs libgcc.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_259b4.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc -lgcc -ldl -lc -lgcc -lgcc -ldl /home/aesalem/android-sdk-linux/ndk-bundle/platforms/android-16/arch-arm/usr/lib/../lib/crtend_android.o]
     arg [/home/aesalem/android-sdk-linux/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld] ==> ignore
     arg [--sysroot=/home/aesalem/android-sdk-linux/ndk-bundle/platforms/android-16/arch-arm] ==> ignore
     arg [-pie] ==> ignore
@@ -212,13 +207,16 @@ Parsed CXX implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/system/bin/linker] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_2b57f] ==> ignore
+    arg [cmTC_259b4] ==> ignore
     arg [/home/aesalem/android-sdk-linux/ndk-bundle/platforms/android-16/arch-arm/usr/lib/../lib/crtbegin_dynamic.o] ==> ignore
+    arg [-L/home/aesalem/android-sdk-linux/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/lib/linux/arm] ==> dir [/home/aesalem/android-sdk-linux/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/lib/linux/arm]
     arg [-L/home/aesalem/android-sdk-linux/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/thumb] ==> dir [/home/aesalem/android-sdk-linux/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/thumb]
     arg [-L/home/aesalem/android-sdk-linux/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/thumb] ==> dir [/home/aesalem/android-sdk-linux/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/thumb]
     arg [-L/home/aesalem/android-sdk-linux/ndk-bundle/platforms/android-16/arch-arm/usr/lib/../lib] ==> dir [/home/aesalem/android-sdk-linux/ndk-bundle/platforms/android-16/arch-arm/usr/lib/../lib]
     arg [-L/home/aesalem/android-sdk-linux/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/thumb] ==> dir [/home/aesalem/android-sdk-linux/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/thumb]
     arg [-L/home/aesalem/android-sdk-linux/ndk-bundle/platforms/android-16/arch-arm/usr/lib] ==> dir [/home/aesalem/android-sdk-linux/ndk-bundle/platforms/android-16/arch-arm/usr/lib]
+    arg [--exclude-libs] ==> ignore
+    arg [libgcc.a] ==> ignore
     arg [--build-id] ==> ignore
     arg [--warn-shared-textrel] ==> ignore
     arg [--fatal-warnings] ==> ignore
@@ -228,16 +226,7 @@ Parsed CXX implicit link information from above output:
     arg [-znow] ==> ignore
     arg [--gc-sections] ==> ignore
     arg [-znocopyreloc] ==> ignore
-    arg [--build-id] ==> ignore
-    arg [--warn-shared-textrel] ==> ignore
-    arg [--fatal-warnings] ==> ignore
-    arg [--no-undefined] ==> ignore
-    arg [-znoexecstack] ==> ignore
-    arg [-zrelro] ==> ignore
-    arg [-znow] ==> ignore
-    arg [--gc-sections] ==> ignore
-    arg [-znocopyreloc] ==> ignore
-    arg [CMakeFiles/cmTC_2b57f.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_259b4.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc] ==> lib [gcc]
@@ -252,24 +241,25 @@ Parsed CXX implicit link information from above output:
   remove lib [gcc]
   remove lib [gcc]
   remove lib [gcc]
+  collapse library dir [/home/aesalem/android-sdk-linux/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/lib/linux/arm] ==> [/home/aesalem/android-sdk-linux/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/lib/linux/arm]
   collapse library dir [/home/aesalem/android-sdk-linux/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/thumb] ==> [/home/aesalem/android-sdk-linux/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/thumb]
   collapse library dir [/home/aesalem/android-sdk-linux/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/thumb] ==> [/home/aesalem/android-sdk-linux/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/arm-linux-androideabi/lib/thumb]
   collapse library dir [/home/aesalem/android-sdk-linux/ndk-bundle/platforms/android-16/arch-arm/usr/lib/../lib] ==> [/home/aesalem/android-sdk-linux/ndk-bundle/platforms/android-16/arch-arm/usr/lib]
   collapse library dir [/home/aesalem/android-sdk-linux/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/thumb] ==> [/home/aesalem/android-sdk-linux/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/arm-linux-androideabi/lib/thumb]
   collapse library dir [/home/aesalem/android-sdk-linux/ndk-bundle/platforms/android-16/arch-arm/usr/lib] ==> [/home/aesalem/android-sdk-linux/ndk-bundle/platforms/android-16/arch-arm/usr/lib]
   implicit libs: [stdc++;m;dl;c;dl]
-  implicit dirs: [/home/aesalem/android-sdk-linux/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/thumb;/home/aesalem/android-sdk-linux/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/arm-linux-androideabi/lib/thumb;/home/aesalem/android-sdk-linux/ndk-bundle/platforms/android-16/arch-arm/usr/lib]
+  implicit dirs: [/home/aesalem/android-sdk-linux/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/lib/linux/arm;/home/aesalem/android-sdk-linux/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/thumb;/home/aesalem/android-sdk-linux/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/arm-linux-androideabi/lib/thumb;/home/aesalem/android-sdk-linux/ndk-bundle/platforms/android-16/arch-arm/usr/lib]
   implicit fwks: []
 
 
 
 
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: /home/aesalem/Teaching/WiSe_2016_17/IN4189_Selected_Topics_in_Android_Security/Lectures_and_Tasks/Wk_6_Reverse_Engineering/Exercise_6/code/Incognito/app/.externalNativeBuild/cmake/release/armeabi/CMakeFiles/CMakeTmp
+Change Dir: /home/aesalem/Teaching/IN4189_Android_Security/Lectures_and_Tasks/Wk_6_Reverse_Engineering/Exercise_6/code/Incognito/app/.externalNativeBuild/cmake/release/armeabi/CMakeFiles/CMakeTmp
 
-Run Build Command:"/home/aesalem/android-sdk-linux/cmake/3.6.3155560/bin/ninja" "cmTC_fdbcd"
-[1/2] Building CXX object CMakeFiles/cmTC_fdbcd.dir/feature_tests.cxx.o
-[2/2] Linking CXX executable cmTC_fdbcd
+Run Build Command:"/home/aesalem/android-sdk-linux/cmake/3.6.3155560/bin/ninja" "cmTC_6e0eb"
+[1/2] Building CXX object CMakeFiles/cmTC_6e0eb.dir/feature_tests.cxx.o
+[2/2] Linking CXX executable cmTC_6e0eb
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -332,11 +322,11 @@ Run Build Command:"/home/aesalem/android-sdk-linux/cmake/3.6.3155560/bin/ninja" 
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /home/aesalem/Teaching/WiSe_2016_17/IN4189_Selected_Topics_in_Android_Security/Lectures_and_Tasks/Wk_6_Reverse_Engineering/Exercise_6/code/Incognito/app/.externalNativeBuild/cmake/release/armeabi/CMakeFiles/CMakeTmp
+Change Dir: /home/aesalem/Teaching/IN4189_Android_Security/Lectures_and_Tasks/Wk_6_Reverse_Engineering/Exercise_6/code/Incognito/app/.externalNativeBuild/cmake/release/armeabi/CMakeFiles/CMakeTmp
 
-Run Build Command:"/home/aesalem/android-sdk-linux/cmake/3.6.3155560/bin/ninja" "cmTC_5cf57"
-[1/2] Building CXX object CMakeFiles/cmTC_5cf57.dir/feature_tests.cxx.o
-[2/2] Linking CXX executable cmTC_5cf57
+Run Build Command:"/home/aesalem/android-sdk-linux/cmake/3.6.3155560/bin/ninja" "cmTC_6d29f"
+[1/2] Building CXX object CMakeFiles/cmTC_6d29f.dir/feature_tests.cxx.o
+[2/2] Linking CXX executable cmTC_6d29f
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -399,11 +389,11 @@ Run Build Command:"/home/aesalem/android-sdk-linux/cmake/3.6.3155560/bin/ninja" 
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /home/aesalem/Teaching/WiSe_2016_17/IN4189_Selected_Topics_in_Android_Security/Lectures_and_Tasks/Wk_6_Reverse_Engineering/Exercise_6/code/Incognito/app/.externalNativeBuild/cmake/release/armeabi/CMakeFiles/CMakeTmp
+Change Dir: /home/aesalem/Teaching/IN4189_Android_Security/Lectures_and_Tasks/Wk_6_Reverse_Engineering/Exercise_6/code/Incognito/app/.externalNativeBuild/cmake/release/armeabi/CMakeFiles/CMakeTmp
 
-Run Build Command:"/home/aesalem/android-sdk-linux/cmake/3.6.3155560/bin/ninja" "cmTC_da8cc"
-[1/2] Building CXX object CMakeFiles/cmTC_da8cc.dir/feature_tests.cxx.o
-[2/2] Linking CXX executable cmTC_da8cc
+Run Build Command:"/home/aesalem/android-sdk-linux/cmake/3.6.3155560/bin/ninja" "cmTC_847c1"
+[1/2] Building CXX object CMakeFiles/cmTC_847c1.dir/feature_tests.cxx.o
+[2/2] Linking CXX executable cmTC_847c1
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers

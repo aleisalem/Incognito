@@ -1,0 +1,15 @@
+# ninja log v5
+0	116	0	CMakeFiles/secret-keeper.dir/src/main/cpp/secret-keeper.cpp.o	8fb2a1e7d070a497
+117	135	0	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libsecret-keeper.so	ef6ed8ec16712e50
+0	98	0	CMakeFiles/secret-keeper.dir/src/main/cpp/secret-keeper.cpp.o	8fb2a1e7d070a497
+98	111	0	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libsecret-keeper.so	ef6ed8ec16712e50
+0	111	0	CMakeFiles/secret-keeper.dir/src/main/cpp/secret-keeper.cpp.o	8fb2a1e7d070a497
+111	127	0	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libsecret-keeper.so	ef6ed8ec16712e50
+1	92	0	CMakeFiles/secret-keeper.dir/src/main/cpp/secret-keeper.cpp.o	8fb2a1e7d070a497
+92	105	0	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libsecret-keeper.so	ef6ed8ec16712e50
+0	106	0	CMakeFiles/secret-keeper.dir/src/main/cpp/secret-keeper.cpp.o	8fb2a1e7d070a497
+106	118	0	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libsecret-keeper.so	ef6ed8ec16712e50
+0	182	0	CMakeFiles/secret-keeper.dir/src/main/cpp/secret-keeper.cpp.o	8fb2a1e7d070a497
+182	214	0	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libsecret-keeper.so	ef6ed8ec16712e50
+0	172	0	CMakeFiles/secret-keeper.dir/src/main/cpp/secret-keeper.cpp.o	8fb2a1e7d070a497
+172	190	0	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libsecret-keeper.so	ef6ed8ec16712e50

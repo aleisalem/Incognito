@@ -1,4 +1,4 @@
-# Install script for directory: /home/aesalem/Teaching/WiSe_2016_17/IN4189_Selected_Topics_in_Android_Security/Lectures_and_Tasks/Wk_6_Reverse_Engineering/Exercise_6/code/Incognito/app
+# Install script for directory: /home/aesalem/Teaching/IN4189_Android_Security/Lectures_and_Tasks/Wk_6_Reverse_Engineering/Exercise_6/code/Incognito/app
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/aesalem/Teaching/WiSe_2016_17/IN4189_Selected_Topics_in_Android_Security/Lectures_and_Tasks/Wk_6_Reverse_Engineering/Exercise_6/code/Incognito/app/.externalNativeBuild/cmake/debug/armeabi-v7a/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/aesalem/Teaching/IN4189_Android_Security/Lectures_and_Tasks/Wk_6_Reverse_Engineering/Exercise_6/code/Incognito/app/.externalNativeBuild/cmake/debug/armeabi-v7a/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -64,5 +64,5 @@ endif()
 
 
 set(CMAKE_CXX_IMPLICIT_LINK_LIBRARIES "stdc++;m;dl;c;dl")
-set(CMAKE_CXX_IMPLICIT_LINK_DIRECTORIES "/home/aesalem/android-sdk-linux/ndk-bundle/toolchains/x86_64-4.9/prebuilt/linux-x86_64/lib/gcc/x86_64-linux-android/4.9.x;/home/aesalem/android-sdk-linux/ndk-bundle/toolchains/x86_64-4.9/prebuilt/linux-x86_64/x86_64-linux-android/lib64;/home/aesalem/android-sdk-linux/ndk-bundle/platforms/android-21/arch-x86_64/usr/lib64;/home/aesalem/android-sdk-linux/ndk-bundle/toolchains/x86_64-4.9/prebuilt/linux-x86_64/x86_64-linux-android/lib;/home/aesalem/android-sdk-linux/ndk-bundle/platforms/android-21/arch-x86_64/usr/lib")
+set(CMAKE_CXX_IMPLICIT_LINK_DIRECTORIES "/home/aesalem/android-sdk-linux/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/lib/linux/x86_64;/home/aesalem/android-sdk-linux/ndk-bundle/toolchains/x86_64-4.9/prebuilt/linux-x86_64/lib/gcc/x86_64-linux-android/4.9.x;/home/aesalem/android-sdk-linux/ndk-bundle/toolchains/x86_64-4.9/prebuilt/linux-x86_64/x86_64-linux-android/lib64;/home/aesalem/android-sdk-linux/ndk-bundle/platforms/android-21/arch-x86_64/usr/lib64;/home/aesalem/android-sdk-linux/ndk-bundle/toolchains/x86_64-4.9/prebuilt/linux-x86_64/x86_64-linux-android/lib;/home/aesalem/android-sdk-linux/ndk-bundle/platforms/android-21/arch-x86_64/usr/lib")
 set(CMAKE_CXX_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "")

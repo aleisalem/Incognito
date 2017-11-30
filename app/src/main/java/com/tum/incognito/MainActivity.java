@@ -58,13 +58,14 @@ class MyRequestTask extends AsyncTask<String, Void, String> {
         String input = args[0];
         String mode = args[1];
         String url = args[2];
+
         if (mode.equals("MODE1")) {
             // HTTP request for weather forecast
             try {
                 Log.d("Incognito", "Input: " + input + ", mode: " + mode);
                 URL http = new URL(url + input);
                 HttpURLConnection urlConnection = (HttpURLConnection) http.openConnection();
-                InputStream in = new BufferedInputStream(urlConnection.getInputStream());
+                BufferedInputStream in = new BufferedInputStream(urlConnection.getInputStream());
                 output = processResponse(in, mode);
                 urlConnection.disconnect();
             } catch (IOException e) {
@@ -104,6 +105,7 @@ class MyRequestTask extends AsyncTask<String, Void, String> {
         StringBuilder sb = new StringBuilder();
         BufferedReader br = new BufferedReader(new InputStreamReader(response));
         String tempLine;
+        String keyword = "";
         // Read all content from the response
         try {
             while ((tempLine = br.readLine()) != null)
@@ -111,19 +113,21 @@ class MyRequestTask extends AsyncTask<String, Void, String> {
             // Convert to string
             content = sb.toString();
         } catch (IOException e) {
-            Log.d("Incognito", "Error encountered while reading reponse from MODE1");
+            Log.d("Incognito", "Error encountered while reading response from MODE1");
         }
         if (mode.equals("MODE1")) {
             // MODE 1
-            int index = content.indexOf("wt-color-temperature-max");
+            keyword = "text--white beta palm-hide";
+            int index = content.indexOf(keyword);
             if (index != -1)
-                output = content.substring(index + 26, index + 28);
+                output = content.substring(index+keyword.length()+2, index+keyword.length()+6);
         } else if (mode.equals("MODE2")) {
             // MODE 2
-            // MODE 1
-            int index = content.indexOf("item-aside");
-            if (index != -1)
-                output = content.substring(index + 22, index + 29);
+            keyword = "lang=\"de\"><samp>";
+            int stIndex = content.indexOf(keyword);
+            int endIndex = content.indexOf("<a", stIndex);
+            if ((stIndex != -1) && (endIndex != -1))
+                output = content.substring(stIndex + keyword.length(), endIndex);
         }
         return output;
     }
