@@ -1,0 +1,16 @@
+{
+  "buildFiles": [
+    "/home/aesalem/Research/Android/sample_vulnerable_apps/Incognito/app/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/home/aesalem/android-sdk-linux/cmake/3.6.4111459/bin/cmake --build /home/aesalem/Research/Android/sample_vulnerable_apps/Incognito/app/.externalNativeBuild/cmake/debug/x86 --target clean"
+  ],
+  "libraries": {
+    "secret-keeper-Debug-x86": {
+      "artifactName": "secret-keeper",
+      "buildCommand": "/home/aesalem/android-sdk-linux/cmake/3.6.4111459/bin/cmake --build /home/aesalem/Research/Android/sample_vulnerable_apps/Incognito/app/.externalNativeBuild/cmake/debug/x86 --target secret-keeper",
+      "abi": "x86",
+      "output": "/home/aesalem/Research/Android/sample_vulnerable_apps/Incognito/app/build/intermediates/cmake/debug/obj/x86/libsecret-keeper.so"
+    }
+  }
+}

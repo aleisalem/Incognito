@@ -1,15 +1,7 @@
 # ninja log v5
-0	95	0	CMakeFiles/secret-keeper.dir/src/main/cpp/secret-keeper.cpp.o	4534284eabe2aa7
-96	107	0	../../../../build/intermediates/cmake/debug/obj/x86_64/libsecret-keeper.so	6d81a18a5a8b9ccd
-0	74	0	CMakeFiles/secret-keeper.dir/src/main/cpp/secret-keeper.cpp.o	4534284eabe2aa7
-74	86	0	../../../../build/intermediates/cmake/debug/obj/x86_64/libsecret-keeper.so	6d81a18a5a8b9ccd
-1	81	0	CMakeFiles/secret-keeper.dir/src/main/cpp/secret-keeper.cpp.o	4534284eabe2aa7
-81	95	0	../../../../build/intermediates/cmake/debug/obj/x86_64/libsecret-keeper.so	6d81a18a5a8b9ccd
-0	84	0	CMakeFiles/secret-keeper.dir/src/main/cpp/secret-keeper.cpp.o	4534284eabe2aa7
-84	96	0	../../../../build/intermediates/cmake/debug/obj/x86_64/libsecret-keeper.so	6d81a18a5a8b9ccd
-1	116	0	CMakeFiles/secret-keeper.dir/src/main/cpp/secret-keeper.cpp.o	4534284eabe2aa7
-116	132	0	../../../../build/intermediates/cmake/debug/obj/x86_64/libsecret-keeper.so	6d81a18a5a8b9ccd
-2	229	0	CMakeFiles/secret-keeper.dir/src/main/cpp/secret-keeper.cpp.o	4534284eabe2aa7
-229	255	0	../../../../build/intermediates/cmake/debug/obj/x86_64/libsecret-keeper.so	6d81a18a5a8b9ccd
-1	136	0	CMakeFiles/secret-keeper.dir/src/main/cpp/secret-keeper.cpp.o	4534284eabe2aa7
-136	157	0	../../../../build/intermediates/cmake/debug/obj/x86_64/libsecret-keeper.so	6d81a18a5a8b9ccd
+0	295	0	CMakeFiles/secret-keeper.dir/src/main/cpp/secret-keeper.cpp.o	e6d9d255c52072b8
+296	314	0	../../../../build/intermediates/cmake/debug/obj/x86_64/libsecret-keeper.so	9500ace88968104d
+0	303	0	CMakeFiles/secret-keeper.dir/src/main/cpp/secret-keeper.cpp.o	e6d9d255c52072b8
+303	322	0	../../../../build/intermediates/cmake/debug/obj/x86_64/libsecret-keeper.so	9500ace88968104d
+1	518	0	CMakeFiles/secret-keeper.dir/src/main/cpp/secret-keeper.cpp.o	e6d9d255c52072b8
+518	558	0	../../../../build/intermediates/cmake/debug/obj/x86_64/libsecret-keeper.so	9500ace88968104d

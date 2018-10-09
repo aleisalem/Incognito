@@ -59,25 +59,13 @@ class MyRequestTask extends AsyncTask<String, Void, String> {
         String mode = args[1];
         String url = args[2];
 
-        if (mode.equals("MODE1")) {
+        if (mode.equals("MODE1") || mode.equals("MODE2")) {
             // HTTP request for weather forecast
             try {
-                Log.d("Incognito", "Input: " + input + ", mode: " + mode);
+                Log.d("Incognito", "URL: Nice try!! :)" + ", input: "+ input + ", mode: " + mode);
                 URL http = new URL(url + input);
                 HttpURLConnection urlConnection = (HttpURLConnection) http.openConnection();
                 BufferedInputStream in = new BufferedInputStream(urlConnection.getInputStream());
-                output = processResponse(in, mode);
-                urlConnection.disconnect();
-            } catch (IOException e) {
-                Log.d("Incognito", "Unable to open connection");
-            }
-        } else if (mode.equals("MODE2")) {
-            // HTTP request for restaurants nearby
-            try {
-                Log.d("Incognito", "Input: " + input + ", mode: " + mode);
-                URL http = new URL(url + input);
-                HttpURLConnection urlConnection = (HttpURLConnection) http.openConnection();
-                InputStream in = new BufferedInputStream(urlConnection.getInputStream());
                 output = processResponse(in, mode);
                 urlConnection.disconnect();
             } catch (IOException e) {
@@ -123,9 +111,10 @@ class MyRequestTask extends AsyncTask<String, Void, String> {
                 output = content.substring(index+keyword.length()+2, index+keyword.length()+6);
         } else if (mode.equals("MODE2")) {
             // MODE 2
-            keyword = "lang=\"de\"><samp>";
+            //keyword = "lang=\"de\"><samp>";
+            keyword = "class=\"quote\">";
             int stIndex = content.indexOf(keyword);
-            int endIndex = content.indexOf("<a", stIndex);
+            int endIndex = content.indexOf("<span", stIndex);
             if ((stIndex != -1) && (endIndex != -1))
                 output = content.substring(stIndex + keyword.length(), endIndex);
         }
